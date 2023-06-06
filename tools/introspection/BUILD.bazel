@@ -33,6 +33,7 @@ cc_library(
     visibility = ["//visibility:public"],
     deps = [
         "//iceoryx_posh",
+        "//bazel/ncurses:ncurses"
     ],
 )
 
